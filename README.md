@@ -1,10 +1,14 @@
 vim
 ===
 
-cd ~
+1. Intall Vundle
+  git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-wget https://github.com/seyang/vim/blob/master/.vimrc
+2. set vimrc
+  1) cd ~
 
-vi ~/.vimrc
+  2) wget https://github.com/seyang/vim/blob/master/.vimrc
 
-:PluginInstall
+  3) vi ~/.vimrc
+
+  4) :PluginInstall
