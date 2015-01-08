@@ -5,6 +5,7 @@ vim
 
   git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
+
 2. Set vimrc
 
   1) cd ~
@@ -14,6 +15,7 @@ vim
   3) vi ~/.vimrc
 
   4) :PluginInstall
+
 
 3. Set .bash_profile
 
