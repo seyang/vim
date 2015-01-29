@@ -79,7 +79,9 @@ set autoindent
 set nu
 set sw=4
 set ts=4
-highlight Visual ctermbg=254 guibg=#5D5D5D
+hi Visual ctermbg=254 guibg=#5D5D5D
+hi Pmenu ctermfg=0 ctermbg=6 guibg=#444444
+hi PmenuSel ctermfg=7 ctermbg=4 guibg=#555555 guifg=#ffffff
 
 nmap nt :NERDTreeToggle<CR>
 nmap tb :TagbarToggle<CR>
