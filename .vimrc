@@ -56,6 +56,9 @@ Plugin 'MattesGroeger/vim-bookmarks'
 " EasyGrep
 Plugin 'EasyGrep'
 
+" neocomplcache
+Plugin 'Shougo/neocomplcache.vim'
+
 " repeat.vim
 " Plugin 'tpope/vim-repeat'
 
@@ -126,3 +129,13 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 " Bookmark Option
 let g:bookmark_sign = '>>'
 let g:bookmark_auto_save = 0
+
+" neocomplcache
+let g:neocomplcache_enable_at_startup = 1
+" <TAB>: completion.
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+" <C-h>, <BS>: close popup and delete backword char.
+inoremap <expr><C-h> neocomplcache#smart_close_popup()."\<C-h>"
+inoremap <expr><BS> neocomplcache#smart_close_popup()."\<C-h>"
+inoremap <expr><C-y>  neocomplcache#close_popup()
+inoremap <expr><C-e>  neocomplcache#cancel_popup()
