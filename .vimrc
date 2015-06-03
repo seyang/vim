@@ -94,6 +94,7 @@ nmap nt :NERDTreeToggle<CR>
 nmap tb :TagbarToggle<CR>
 nmap <F5> <ESC>:w<CR>:!cd ./lib;clear;make<CR>
 nmap <F6> :mak<CR>
+nmap <F9> :w<CR>
 nmap <F10> :q<CR>
 
 set tags+=/home/fmln/tags
