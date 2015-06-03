@@ -1,3 +1,7 @@
+if filereadable("/etc/vimrc")
+  source /etc/vimrc
+endif
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
