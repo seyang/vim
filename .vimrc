@@ -97,6 +97,9 @@ nmap <F6> :mak<CR>
 nmap <F9> :w<CR>
 nmap <F10> :q<CR>
 
+:command W w
+:command Q q
+
 set tags+=/home/fmln/tags
 
 set fencs=utf8,euc-kr,cp949,cp932,euc-jp,shift-jis,big5,latin1,ucs-2le
