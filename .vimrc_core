@@ -1,0 +1,24 @@
+set laststatus=2
+set cindent
+set autoindent
+set cinoptions=g-1
+set nu
+set sw=4
+set ts=4
+hi Visual ctermbg=254 guibg=#5D5D5D
+hi Pmenu ctermfg=0 ctermbg=6 guibg=#444444
+hi PmenuSel ctermfg=7 ctermbg=4 guibg=#555555 guifg=#ffffff
+
+nmap <F2> <ESC>:tabnew<CR>
+nmap <F3> <ESC>:tabprevious<CR> 
+nmap <F4> <ESC>:tabnext<CR>
+nmap <F6> :mak<CR>
+nmap <F9> :w<CR>
+nmap <F10> :q<CR>
+
+:command W w 
+:command Q q 
+
+set fencs=utf8,euc-kr,cp949,cp932,euc-jp,shift-jis,big5,latin1,ucs-2le
+set encoding=utf-8 " Necessary to show Unicode glyphs
+set cursorline
