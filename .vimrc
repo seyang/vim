@@ -83,7 +83,7 @@ filetype plugin indent on    " required
 set laststatus=2
 set cindent
 set autoindent
-set cinoptions=g-1
+set cino+=g0
 set nu
 set sw=4
 set ts=4
